@@ -6,9 +6,27 @@ body {
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
+body * {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
 #container {
   width: 360px;
-  height: 712px;
-  border: 1px solid red;
   margin: auto;
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  /* display: inline-block;
+  margin: auto; */
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
 }
